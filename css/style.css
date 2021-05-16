@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* HEADER */
+.header__content {
+  background: url(../images/header-bg.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header__content-inner {
+  padding: 40px 0 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header__title {
+  font-family: BedasNeueBoldRegular;
+  font-size: 3.8rem;
+  letter-spacing: 5.70937px;
+  color: #ffffff;
+}
+
+.header__description {
+  font-family: OpenSansSemiBold;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.header__scpoll-down {
+  font-family: OpenSansSemiBold;
+  font-size: 0.7rem;
+  letter-spacing: 3.7px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__navigation::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e6e6e6;
+}
+
+.header__nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.menu__list:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu__link {
+  font-family: OpenSansSemiBold;
+  font-size: 12px;
+  letter-spacing: 1.09091px;
+  text-transform: uppercase;
+  color: #48555b;
+}
+
+.menu__link--active:hover {
+  color: #00a4e5;
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}

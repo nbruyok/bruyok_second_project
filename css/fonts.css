@@ -1,0 +1,20 @@
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSansSemiBold;
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: OpenSansExtraBold;
+  src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: BedasNeueBoldRegular;
+  src: url(../fonts/BebasNeueBold/bebas_neue_regular.ttf);
+}
