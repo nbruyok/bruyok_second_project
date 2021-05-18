@@ -18,3 +18,60 @@
   font-family: BedasNeueBoldRegular;
   src: url(../fonts/BebasNeueBold/bebas_neue_regular.ttf);
 }
+
+
+
+.title {
+  font-family: OpenSansBold;
+  color: #48555b;
+}
+
+.subtitle {
+  font-family: OpenSansRegular;
+  color: #48555b;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #16ace8;
+  border-width: 0;
+  margin-top: 10px;
+}
+
+
+/* 
+60px = 3.8rem = 1 em = 100 %
+5.7px = x %
+x = 5.7 * 100 / 60
+x = 9.5 %
+x = 0.095 em
+*/
+
+
+/*
+16px * 0.7 = 11 px
+11px = 0.7rem = 1 em = 100 %
+3.7px = x %
+x = 3.7 * 100 / 11
+x = 33.63 %
+x = 0.3363 em
+*/
+
+
+/*  rem
+16 px = 100 %  1 rem = 
+12 px = x %
+x = 12 * 100 / 16
+x = 75 %
+
+
+
+
+em
+1 em = 0.75 rem = 12px = 100 %
+12px = 100 %
+1.09 px = x
+x = 1.09 * 100 / 12
+x = 9.08 %
+*/

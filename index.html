@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fontawesome-fonts.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -34,7 +36,7 @@
         </div>
       </div>
 
-      <div class="header__navigation">
+      <div class="header__navigation--border-bottom">
         <div class="container">
           <div class="header__nav-inner">
             <div class="logo">
@@ -48,26 +50,23 @@
             </div>
             <nav class="header__menu">
               <ul class="menu__list">
+                <li class="header__menu-button menu__link--active">
+                  <i class="fas fa-bars"></i>
+                </li>
                 <li class="menu__list-item">
                   <a href="#" class="menu__link menu__link--active">home</a>
                 </li>
-              </ul>
-              <ul class="menu__list">
                 <li class="menu__list-item">
                   <a href="#" class="menu__link menu__link--active">about</a>
                 </li>
-              </ul>
-              <ul class="menu__list">
                 <li class="menu__list-item">
                   <a href="#" class="menu__link menu__link--active">services</a>
                 </li>
-              </ul>
-              <ul class="menu__list">
+
                 <li class="menu__list-item">
                   <a href="#" class="menu__link menu__link--active">work</a>
                 </li>
-              </ul>
-              <ul class="menu__list">
+
                 <li class="menu__list-item">
                   <a href="#" class="menu__link menu__link--active">contact</a>
                 </li>
@@ -77,5 +76,124 @@
         </div>
       </div>
     </header>
+
+    <section class="about">
+      <div class="container">
+        <div class="title about__title">
+          OUR STORY
+          <hr class="line" />
+        </div>
+        <div class="about__content">
+          <div class="about__text">
+            <h3 class="title about__title-medium">
+              Founded in 2011 by John Mathew Smith,
+              <span> Konstruct</span> has become the number one construction
+              management firm
+            </h3>
+            <p class="about__subtitle subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+              aliquam erat.
+            </p>
+          </div>
+
+          <div class="about__items">
+            <div class="about__item-img">
+              <img src="./images/plan.jpg" alt="we plan" />
+              <p class="about__img-text">
+                we <br />
+                plan
+              </p>
+            </div>
+            <div class="about__item-img">
+              <img src="./images/manage.jpg" alt="we manage" />
+              <p class="about__img-text">
+                we <br />
+                manage
+              </p>
+            </div>
+            <div class="about__item-img">
+              <img src="./images/build.jpg" alt="we build" />
+              <p class="about__img-text">
+                we <br />
+                build
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servises">
+      <div class="container">
+        <div class="servises__title-block">
+          <div class="title servises__title">
+            OUR CAPABILITIES
+            <hr class="line" />
+          </div>
+          <p class="servises__subtitle subtitle">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <button class="button sirvise__button">ALL SERVICES</button>
+        </div>
+
+        <div class="servises__items-block">
+          <div class="servises__item">
+            <img
+              class="servises__img"
+              src="./images/Bitmap-1.png"
+              alt="bitmap-1"
+            />
+            <div class="servises__text">
+              <h3 class="title servises__title-medium">
+                PROJECT AND CONSTRUCTION MANAGEMENT
+              </h3>
+              <p class="servises__item-subtitle subtitle">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </div>
+          <div class="servises__item">
+            <img
+              class="servises__img"
+              src="./images/Bitmap-2.png"
+              alt="bitmap-2"
+            />
+            <div class="servises__text">
+              <h3 class="title servises__title-medium">
+                STRUCTURE AUDIT AND MAINTENANCE
+              </h3>
+              <p class="servises__item-subtitle subtitle">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </div>
+          <div class="servises__item">
+            <img
+              class="servises__img"
+              src="./images/Bitmap-3.png"
+              alt="bitmap-3"
+            />
+            <div class="servises__text">
+              <h3 class="title servises__title-medium">
+                FACTORY CONSTRUCTION AND MODELING
+              </h3>
+              <p class="servises__item-subtitle subtitle">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
